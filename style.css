@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.site-nav{
+  display: flex;
+  gap: 20px;
+}
+.nav-link{
+  font-family: 'Mulish';
+  font-size: 18px;
+  line-height: 21px;
+  color: #1F1534;
+  text-decoration: none;
+  /* text-decoration: underline; */
+}
+
+.site-hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-text{
+  width: 450px;
+}
+
+.hero-title{
+  font-family: 'Mulish';
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.hero-desc{
+  font-family: 'Mulish';
+  font-size: 21px;
+  line-height: 32px;
+
+  color: #7D7987;
+}
+.btn{
+  background: #458FF6;
+  border-radius: 55px;
+  font-family: 'Mulish';
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding: 0 40px;
+  border: none;
+}
+
+.services-text-wrapper{
+  text-align: center;
+}
+.services-title{
+  font-family: 'Mulish';
+  font-size: 36px;
+  line-height: 56px;
+}
+.services-line{
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #000;
+  margin: auto;
+}
+
+.services-desc{
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7D7987;
+  width: 952px;
+  margin: auto;
+}
+
+.services-card-wrapper{
+  display: flex;
+  margin: auto;
+
+}
+.services-card{
+  width: 350px;
+}
